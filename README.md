@@ -1,2 +1,2 @@
 # SPynq
-Spark on Pynq
+-- Spark on Pynq --
