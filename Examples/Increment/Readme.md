@@ -10,7 +10,6 @@ _(Please note that they must be placed in the the bitstream direcotry under the 
 
 ####Increment IP usage
 Two integer numbers are given as input to the IP and their sum increased by one is returned.  
-_(Please note that there is a bug with the ceated IP and the results are not as expected. Will be fixed soon.)_
 
 ####Running the increment application
 Please note that submitting increment.py to Spark, requires version 2.1.0 and above, 

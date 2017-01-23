@@ -27,13 +27,13 @@ if __name__ == "__main__":
     print(arr[1])
 
     #The RDD is converted to array and we perform the increment function (fpga side) 
-    math_ip.write(4,int(arr[0]))
-    math_ip.write(8,int(arr[1]))
-    op1=math_ip.read(4)
+    math_ip.write(0x18,int(arr[0]))
+    math_ip.write(0x20,int(arr[1]))
+    op1=math_ip.read(0x18)
     print(hex(op1))
-    op2=math_ip.read(8)
+    op2=math_ip.read(0x20)
     print(hex(op2))
-    result=math_ip.read(0xc)
+    result=math_ip.read(0x10)
     print(hex(result))
 
     #A new RDD is created from the values of op1 and op2
