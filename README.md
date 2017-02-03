@@ -43,12 +43,17 @@ In order to use Pynq's board peripherals or the PL, always remember to append th
   sys.path.append('/home/xilinx')
   ```
 
-Contact Details:
+**Contact Details:**
 Christoforos Kachris
+
 Microprocessors and Digital Systems Lab (Microlab)
+
 School of Electrical & Computer Engineering 
+
 National Technical University of Athens (NTUA)
+
 Athens 
+
 Greece
 
 
