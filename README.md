@@ -60,3 +60,5 @@ Elias Koromilas
 
 
 [VINEYARD H2020](http://vineyard-h2020.eu)
+
+![vineyard_logo_small](https://cloud.githubusercontent.com/assets/24586009/23160413/0eb26858-f82f-11e6-9720-29f48a2e6e7e.png)
