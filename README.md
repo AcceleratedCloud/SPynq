@@ -2,7 +2,7 @@
 
 ###Description
 
-Spynq is a framework for the efficient deployment of data analytics on embedded systems that are based on the heterogenous MPSoC FPGA called Pynq. The mapping of Spark on Pynq allows that fast deployment of embedded and cyber-physical systems that are used in edge and fog computing. Below we will describe the configuration steps for the deployment of Spark on Pynq as well as the actions needed to access the built-in Xilinx libraries from PySpark.
+Spynq is a framework for the efficient deployment of data analytics on embedded systems that are based on the heterogenous MPSoC FPGA called [Pynq](http://www.pynq.io/). The mapping of Spark on Pynq allows that fast deployment of embedded and cyber-physical systems that are used in edge and fog computing. Below we will describe the configuration steps for the deployment of Spark on Pynq as well as the actions needed to access the built-in Xilinx libraries from PySpark.
 
 ###Deploying Apache Spark
 
