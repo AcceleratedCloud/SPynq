@@ -47,10 +47,12 @@ In order to use Pynq's board peripherals or the PL, always remember to append th
 Christoforos Kachris
 
 Microprocessors and Digital Systems Lab (Microlab)
+
 School of Electrical & Computer Engineering 
+
 National Technical University of Athens (NTUA)
-Athens 
-Greece
+
+Athens, Greece
 
 **Contributions:**
 Ioannis Stamelos
