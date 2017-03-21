@@ -41,7 +41,7 @@ After these configurations are made, Spark is ready to be run on Pynq. Of course
 
  _(Under the project's conf dir you can find all of the three files mentioned above.)_
  
-###Xilinx libraries for python applications
+## Xilinx libraries for python applications
 In order to use Pynq's board peripherals or the PL, always remember to append the path to Xilinx's pre-built libraries. Every python application should include the following two lines:
   ```python
   import sys
