@@ -1,6 +1,6 @@
 # SPynq: Spark on Pynq
 
-###Description
+## Description
 
 SPynq is a framework for the efficient deployment of Spark data analytics applications on the heterogeneous MPSoC FPGA called Zynq on the Xilinx [Pynq](http://www.pynq.io/) platform. The mapping of [Spark](http://spark.apache.org/) on Pynq allows the acceleration of Spark application by utlizing seamlessly the programmable logic of the FPGAs. Below we will describe the configuration steps for the deployment of Spark on Pynq as well as the actions needed to access the built-in Xilinx libraries from PySpark.
 
@@ -9,7 +9,7 @@ In this project we have developed a library of hardware accelerators that can be
 - Recommendation engines (ALS)
 - Graph computations (PageRank)
 
-###Deploying Apache Spark
+## Deploying Apache Spark
 
 The Zynq FPGA, hosts a dual-core ARM Cortex-A9 32-bit processor and programmable logic. the Pynq platform host the Zynq SoC and 512MB of DDR3 memory. It is obvious that building Spark from source on Pynq could take too long or even end up failing since its resources are limited enough. For that reason, a pre-built version of Spark is used for the deployment. After connecting with Pynq through ssh protocol and extracting Spark to the directory of your choice, we need to follow certain steps in order for it to work.
 
