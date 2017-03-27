@@ -4,7 +4,7 @@
 
 SPynq is a framework for the efficient deployment of Spark data analytics applications on the heterogeneous MPSoC FPGA called Zynq on the Xilinx [Pynq](http://www.pynq.io/) platform. The mapping of [Spark](http://spark.apache.org/) on Pynq allows the acceleration of Spark application by utlizing seamlessly the programmable logic of the FPGAs. Below we will describe the configuration steps for the deployment of Spark on Pynq as well as the actions needed to access the built-in Xilinx libraries from PySpark.
 
-In this project we have developed a library of hardware accelerators that can be used to speedup Spark applications such as Machine learning. SPecifically, we have developed a hardware accelerator that can speedup Logistic regression application up to 22x as it is described in [SPynq](http://vineyard-h2020.eu/download.php?f=81&lang=en&key=6453050166fa5731bfbd16364f5fe97d) paper.
+In this project we have developed a library of hardware accelerators that can be used to speedup Spark applications such as Machine learning. SPecifically, we have developed a hardware accelerator that can speedup Logistic regression application up to 22x as it is described in [SPynq](http://vineyard-h2020.eu/download.php?f=81&lang=en&key=6453050166fa5731bfbd16364f5fe97d) paper ([bibtex](http://kachris.weebly.com/uploads/1/3/6/6/13662069/spynq_bibtex.txt)).
 
 
 ## Deploying Apache Spark
