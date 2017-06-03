@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ "$1" == "accel" ]
+then
+    time spark-submit LogisticRegressionApp.py MNIST_train.dat 4000 0.25 $2 MNIST_test.dat 1 1
+else
+    time spark-submit LogisticRegressionApp.py MNIST_train.dat 4000 0.25 $1 MNIST_test.dat 1 0
+fi
+
+swapoff -a
+swapon -a
