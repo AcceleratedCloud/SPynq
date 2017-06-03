@@ -19,7 +19,7 @@ In this example we have implemented a hardware accelerator used for the computat
 
 We have written a bash script which basically invokes spark-submit and runs the Logistic Regression application with our default input parameters.
 - Running the ***lr*** bash script with only one argument (the iterations), will execute the Logistic Regression application and its algorithm using only the Zynq's CPU cores,  
-- while running the ***lr *** script  followed by the ***accel*** option and the number of the iterations, will execute the same algorithm using the hardware accelerator. 
+- while running the ***lr*** script  followed by the ***accel*** option and the number of the iterations, will execute the same algorithm using the hardware accelerator. 
 ### Execution examples:
 #### Software only
 > **./lr 5**
@@ -37,15 +37,17 @@ In our evaluation, we used an Intel PC as the Spark master node and several PYNQ
 
 You can also find our Logistic Regression notebook under the "***notebook***" folder. The instructions for its execution are very simple:
 
-1. Copy the ***LogisticRegression.ipynb*** notebook under the "***/home/xilinx/jupyter_notebooks/Examples***" directory of your Pynq board. 
-2. Copy the input files ( ***MNIST_train.dat *** and ***MNIST_test.dat*** ) under the "***/home/xilinx/jupyter_notebooks/Examples/data***" directory of your Pynq board. 
+1. Copy the ***LogisticRegression.ipynb*** notebook under the ***"/home/xilinx/jupyter_notebooks/Examples"*** directory of your Pynq board. 
+2. Copy the input files ( ***MNIST_train.dat*** and ***MNIST_test.dat*** ) under the ***"/home/xilinx/jupyter_notebooks/Examples/data"*** directory of your Pynq board. 
 
 You are all set to run an interactive PySpark shell through Jupyter and execute our Logistic Regression application.
  
 
 For any further questions, discussion on the topic or our latest libraries, don't hesitate to contact the authors:
 >Christoforos Kachris: kachris@microlab.ntua.gr
+
 >Ioannis Stamelos: jgstamelos@gmail.com
+
 >Elias Koromilas: el11059@central.ntua.gr
 
 
