@@ -45,7 +45,7 @@ You are all set to run an interactive PySpark shell through Jupyter and execute 
 
 For any further questions, discussion on the topic or our latest libraries, don't hesitate to contact the authors:
 >Christoforos Kachris: kachris@microlab.ntua.gr
-Ioannis Stamelos: jgstamelos@gmail.com
-Elias Koromilas: el11059@central.ntua.gr
+>Ioannis Stamelos: jgstamelos@gmail.com
+>Elias Koromilas: el11059@central.ntua.gr
 
 
