@@ -28,7 +28,7 @@ We have written a bash script which basically invokes spark-submit and runs the 
 
 ## Running Logistic Regression Over a  Spark Cluster
 
-Of course Spark can be run over a cluster. You will need a master node other than PYNQ-Z1 (eg. server or laptop) since Pynq has very limited resources and can't host both a Spark master and a Spark worker node. Furthermore, you can have several PYNQ-Z1 nodes as worker nodes were the application is going to be executed and accelerated. Make sure  that you have set-up properly your cluster by modifying slaves, spark-defaults.sh and spark-env.sh files accordingly. If you have any questions don't hesitate to ask them. Finally, it is well suggested that you have a Hadoop node installed and configured for the Spark cluster, otherwise you will have to copy the application's input files to each node.
+Of course Spark can be run over a cluster. You will need a master node other than PYNQ-Z1 (eg. server or laptop) since Pynq has very limited resources and can't host both a Spark master and a Spark worker node. Furthermore, you can have several PYNQ-Z1 nodes as worker nodes were the application is going to be executed and accelerated. Make sure  that you have set-up properly your cluster by modifying slaves, spark-defaults.conf and spark-env.sh files accordingly. If you have any questions don't hesitate to ask them. Finally, it is well suggested that you have a Hadoop node installed and configured for the Spark cluster, otherwise you will have to copy the application's input files to each node.
 
 In our evaluation, we used an Intel PC as the Spark master node and several PYNQ-Z1 worker nodes. Spark's *standalone* cluster manager was used in *client* mode. The master node also hosted the Hadoop distributed file-system.  
 
