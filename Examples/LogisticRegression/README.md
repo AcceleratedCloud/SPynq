@@ -15,7 +15,7 @@ In this example we have implemented a hardware accelerator used for the computat
 
 > Congratulations! You are all set and ready to run your first accelerated Logistic Regression application.
 
-##Application Execution Instructions
+## Application Execution Instructions
 
 We have written a bash script which basically invokes spark-submit and runs the Logistic Regression application with our default input parameters.
 - Running the ***lr*** bash script with only one argument (the iterations), will execute the Logistic Regression application and its algorithm using only the Zynq's CPU cores,  
@@ -26,7 +26,7 @@ We have written a bash script which basically invokes spark-submit and runs the 
 #### Hardware accelerated
 > **./lr accel 5**
 
-##Running Logistic Regression Over a  Spark Cluster
+## Running Logistic Regression Over a  Spark Cluster
 
 Of course Spark can be run over a cluster. You will need a master node other than PYNQ-Z1 (eg. server or laptop) since Pynq has very limited resources and can't host both a Spark master and a Spark worker node. Furthermore, you can have several PYNQ-Z1 nodes as worker nodes were the application is going to be executed and accelerated. Make sure  that you have set-up properly your cluster by modifying slaves, spark-defaults.sh and spark-env.sh files accordingly. If you have any questions don't hesitate to ask them. Finally, it is well suggested that you have a Hadoop node installed and configured for the Spark cluster, otherwise you will have to copy the application's input files to each node.
 
