@@ -48,6 +48,6 @@ For any further questions, discussion on the topic or our latest libraries, don'
 
 >Ioannis Stamelos: jgstamelos@gmail.com
 
->Elias Koromilas: el11059@central.ntua.gr
+>Elias Koromilas: elias.koromilas@gmail.com
 
 
