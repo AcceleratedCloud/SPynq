@@ -6,6 +6,38 @@ SPynq is a framework for the efficient deployment of Spark data analytics applic
 
 In this project we have developed a library of hardware accelerators that can be used to speedup Spark applications such as Machine learning. SPecifically, we have developed a hardware accelerator that can speedup Logistic regression application up to 22x as it is described in [SPynq](http://vineyard-h2020.eu/download.php?f=81&lang=en&key=6453050166fa5731bfbd16364f5fe97d) paper ([bibtex](http://kachris.weebly.com/uploads/1/3/6/6/13662069/spynq_bibtex.txt)).
 
+## Publications
+
+If you use any part of this work, we would love to hear about it and would very much appreciate a citation:
+
+* Spark acceleration on FPGAs: A use case on machine learning in Pynq, Elias Koromilas, Ioannis Stamelos, Christoforos Kachris, Dimitrios Soudris. International Conference on Modern Circuits and Systems Technologies (MOCAST), 2017.
+* SPynq: Acceleration of machine learning applications over Spark on Pynq, Christoforos Kachris, Elias Koromilas, Ioannis Stamelos, Dimitrios Soudris. International Conference on Embedded Computer Systems: Architectures, Modeling, and Simulation (SAMOS), 2017.
+* FPGA acceleration of spark applications in a Pynq cluster, Christoforos Kachris, Elias Koromilas, Ioannis Stamelos, Dimitrios Soudris. 27th International Conference on Field Programmable Logic and Applications (FPL), 2017.
+
+```
+@misc{
+  author =       "Elias Koromilas, Ioannis Stamelos, Christoforos Kachris, Dimitrios Soudris",
+  title =        "Spark acceleration on FPGAs: A use case on machine learning in Pynq",
+  conference =   "International Conference on Modern Circuits and Systems Technologies(MOCAST)",
+  year =         "2017",
+  month =        "May",
+}
+
+@misc{
+  author =       "Christoforos Kachris, Elias Koromilas, Ioannis Stamelos, Dimitrios Soudris",
+  title =        "SPynq: Acceleration of machine learning applications over Spark on Pynq",
+  conference =   "International Conference on Embedded Computer Systems: Architectures, Modeling, and Simulation (SAMOS)",
+  year =         "2017",
+}
+
+@misc{
+  author =       "Christoforos Kachris, Elias Koromilas, Ioannis Stamelos, Dimitrios Soudris",
+  title =        "FPGA acceleration of spark applications in a Pynq cluster",
+  conference =   "27th International Conference on Field Programmable Logic and Applications (FPL)",
+  year =         "2017",
+}
+```
+
 
 ## Deploying Apache Spark
 
